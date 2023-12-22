@@ -1,0 +1,159 @@
+:root{
+    --primaryColor:#0f0;
+    --secandaryColor:#00f;
+    --lightColor:#fff;
+    --bgColor-2:#080808;
+    --bgColor-1:rgb(31, 30, 30);
+    --paddin: 8%;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: var(--lightColor);
+}
+.home{
+    width:100%;
+    height: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(gym.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    background: linear-gradient(yellow,0.75);
+    position: relative;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 45px;
+    border-color: black;
+    border-radius: 50px;
+    box-shadow: inset rgb(31, 30, 30);
+}
+.legende{
+    color: #cfdd09ec;
+}
+.spen{
+    color:var(--primaryColor);
+}
+.rt{
+    padding-right: 50px;
+    font-size: 3rem;
+    padding-top:50px;
+}
+.name{
+    position:absolute;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 450px;
+    padding-left:40px;
+
+}
+.putF{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: var(--bgColor-1);
+    color: var(--lightColor);
+}
+label{
+    padding-left: 4px;
+    font-size: 1rem;
+    padding-bottom: 2px;
+}
+.putT{
+    border:none;
+    width: 100%;
+    height: 50px;
+    background-color: var(--bgColor-1);
+    color: var(--lightColor);
+}
+.h3{
+    margin-top: 80px;
+}
+.button{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 500px 0px 0px 0px;
+}
+.b1{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-top:40px;
+    font-weight: bold;
+    border:2px white solid ;
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    border-radius: 25px;
+}
+.b1:hover{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 25px;
+}
+.b2{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    float: right;
+    padding: 10px 20px;
+    margin-top:40px;
+    font-weight: bold;
+    border:2px white solid ;
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.b2:hover{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-right: 0;
+    background-color: green;
+    display: inline-block;
+    border-radius: 25px;
+}
+#level{
+    background-color: var(--bgColor-1);
+    width: 100%;
+    height: 50px;
+    color:white;
+}
+#level:hover{
+    margin-left: 5px;
+    
+}
+#star{
+    color: red;
+}
+#high{
+    color:purple;
+}
+#meduim{
+    color:green;
+}
+#normal{
+    color:blue;
+}
+#low{
+    color:white;
+}
